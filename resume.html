@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---css-selectors-->
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css"><!-- external css-->
+	<title> Selectors</title>
+	<style>
+		*{
+			background:#c2c2d6;
+		}
+   h2{
+   	   font-family: verdana;
+        font-size: 20px;
+        color: white;
+        background: #5c5c8a;
+		}
+
+		h1{
+			color: white;
+        background: #5c5c8a;
+		}
+  .t{ 
+
+  	border :20px solid #5c5c8a;
+
+  	padding: 10px;
+
+
+       }
+       p{
+       
+       	font-size: 25px ;
+       }
+
+
+    
+      
+
+       .column {
+   
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 350px; 
+}
+
+       .row:after {
+            content: "";
+            display: table;
+         clear: both;
+}
+   
+   
+	</style>
+</head>
+<body>
+
+	<div class = "t">
+		<section class ="parent"> <!--flex properties-->
+			<article class ="child">
+				
+				<img src="image/user img.svg" class="profile">
+				<h2> GARGEYEE DACHARLA</h2>
+				<h2> Learner</h2><hr>
+				<a href="mailto: gargeyeedacharla@gmail.com"><img src= "image/mail img.svg" class="c"></a>
+				<a href = "Tel:9000401219"><img src="image/phone.svg" class="c1"></a>
+				<a href="https://www.instagram.com/gargeyee___chow__/" target="_blank"><img src="image/insta.svg" class="c"></a>
+				<a href = "https://github.com/GargeyeeDacharla" target="_blank"><img src= "image/github.svg" class="c"></a>
+
+			</article> 
+		</section><hr>
+
+		<h1 > ABOUT ME</h2>
+			<b><p> Responsible and ambitious student with fast learning ability. Seeking to exhibit my technical skills to the software development. Having Proven communication skills and strong  desire towards work</p></b>
+
+
+      <div class="row">
+		
+  <div class="column" style="background-color:#d1d1e0;">
+    <h2 style="text-align: center;">EDUCATION</h2>
+    <p>COMPUTER SCIENCE ENGINEERING </p>
+    <p> SRM UNIVERSITY,AP</p>
+    <p>Expected Graduation : june 2022</p>
+  </div>
+  <div class="column" style="background-color:#c2c2d6;">
+    <h2 style="text-align: center;">PROJECTS</h2>
+    <b><p > E-COMMERCE WEBSITE : may 2020</p></b>
+    	<p> Online products shopping website  using HTML , CSS, JAVA SCRIPT and a small mqsql database</p>
+
+    	<b><p> PHARMACY MANAGEMENT SYSTEM : april 2020</p></b>
+    	<p> Online medical store using GUI and AWI SWING packages in JAVA, mysql database</p>
+
+  </div>
+  <div class="column" style="background-color:#b3b3cc;">
+    <h2 style="text-align: center;">SKILLS</h2>
+   <p> PYTHON </p>
+    <p> DATA STRUCTURES USING C</p>
+     <p> ANALYSIS AND DESIGN OF ALGORITHMS  </p>
+      <p> OOPS in JAVA </p>
+       <p> WEB DEVELOPMENT USING HTML and CSS</p>
+        
+  </div>
+</div>
+
+
+
+		</div>
+
+
+</body>
+
+</html>
